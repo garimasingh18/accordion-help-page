@@ -2,12 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HelpComponent } from './features/help/help.component';
 
-const routes: Routes = [
-  { path: 'help', component: HelpComponent }
-];
+const routes: Routes = [{ path: 'help', component: HelpComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
