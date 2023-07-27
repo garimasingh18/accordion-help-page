@@ -1,10 +1,10 @@
-# AccordionExample
+# Accordion Example
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/help` to see accordion example
+Run `ng serve` for a dev  server. Navigate to `http://localhost:4200/help` to see accordion example
 
 ## Code scaffolding
 
@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Other
+Uses **angular-cli-ghpages** for deploeyment on githubpage <br/>
+
+ng deploy --base-href=https://GithubUserName.github.io/GithubRepoName/
