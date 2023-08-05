@@ -40,7 +40,7 @@ button {
     right: $medium;
   }
   &:after {
-    background: url(/assets/svg/plus-icon.svg) center center no-repeat;
+    background: url(~/assets/svg/plus-icon.svg) center center no-repeat;
     height: $large;
     width: $large;
     content: "";
